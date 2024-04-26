@@ -1,0 +1,20 @@
+{
+  "name": "mus-head-tail-game",
+  "version": "1.0.0",
+  "description": "A cli based head tail game in which both opponents can make runs from 1 to 6 with multiple turns based on their selected playing modes",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "author": "Muhammad Usama",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
